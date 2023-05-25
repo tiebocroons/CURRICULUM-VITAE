@@ -77,7 +77,16 @@ section {
 .section-title {
   text-align: center;
 }
-
+#features .section-title {
+  color: black;
+}
+.section-title {
+  color: hsl(312, 100%, 50%);
+}
+#portfolio .section-title {
+  color: black;
+  padding-top: 30px;
+}
 .shadow {
   box-shadow: 0 10px 30px 0 hsla(215, 19%, 32%, 0.239),
     0 2px 4px 0 hsla(215, 19%, 32%, 0.1) !important;
@@ -94,7 +103,7 @@ section {
 
 .navbar-brand {
   font-size: 40px;
-  color: hsl(0, 0%, 100%)000;
+  color: hsl(0, 0%, 100%) 000;
 }
 
 .navbar-nav .nav-link {
@@ -118,7 +127,7 @@ section {
 }
 
 .jumbotron {
-  color: hsl(0, 0%, 100%)fff;
+  color: hsl(0, 0%, 100%) fff;
   padding-top: 80px;
   padding-bottom: 80px;
   background-repeat: no-repeat;
@@ -153,9 +162,17 @@ section {
   right: 0;
   background: hsl(312, 100%, 50%);
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, hsl(240, 50%, 40%), hsl(312, 100%, 50%));
+  background: -webkit-linear-gradient(
+    to right,
+    hsl(240, 50%, 40%),
+    hsl(312, 100%, 50%)
+  );
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, hsl(240, 50%, 40%), hsl(312, 100%, 50%));
+  background: linear-gradient(
+    to right,
+    hsl(240, 50%, 40%),
+    hsl(312, 100%, 50%)
+  );
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -165,7 +182,7 @@ section {
   display: inline-block;
   border: 15px solid hsl(0, 0%, 100%);
   padding: 30px;
-  font-size: 9rem;
+  font-size: 6rem;
   opacity: 0;
   animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
   animation-delay: 0.8s;
@@ -190,9 +207,17 @@ section {
   right: 0;
   background: hsl(312, 100%, 50%);
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, hsl(240, 50%, 40%), hsl(312, 100%, 50%));
+  background: -webkit-linear-gradient(
+    to right,
+    hsl(240, 50%, 40%),
+    hsl(312, 100%, 50%)
+  );
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, hsl(240, 50%, 40%), hsl(312, 100%, 50%));
+  background: linear-gradient(
+    to right,
+    hsl(240, 50%, 40%),
+    hsl(312, 100%, 50%)
+  );
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -238,7 +263,7 @@ section {
   color: hsl(0, 0%, 100%);
   background-color: transparent;
   background-image: none;
-  border-color: hsl(0, 0%, 100%)fff;
+  border-color: hsl(0, 0%, 100%) fff;
 }
 
 .btn-outline-primary:hover {
@@ -252,7 +277,7 @@ section {
 }
 
 .btn-icon {
-  color: hsl(0, 0%, 0%)000;
+  color: hsl(0, 0%, 0%) 000;
 }
 
 .btn-link {
@@ -267,8 +292,16 @@ section {
   width: 2000px;
   height: 400px;
   background: hsl(272, 76%, 53%);
-  background: -webkit-linear-gradient(to right, hsl(260, 100%, 44%), hsl(272, 76%, 53%));
-  background: linear-gradient(to right, hsl(260, 100%, 44%), hsl(272, 76%, 53%));
+  background: -webkit-linear-gradient(
+    to right,
+    hsl(260, 100%, 44%),
+    hsl(272, 76%, 53%)
+  );
+  background: linear-gradient(
+    to right,
+    hsl(260, 100%, 44%),
+    hsl(272, 76%, 53%)
+  );
   transform-origin: 50% 150% 0;
   position: absolute;
   left: 0;
@@ -280,8 +313,16 @@ section {
   width: 2000px;
   height: 400px;
   background: hsl(272, 76%, 53%);
-  background: -webkit-linear-gradient(to right, hsl(260, 100%, 44%), hsl(272, 76%, 53%));
-  background: linear-gradient(to right, hsl(260, 100%, 44%), hsl(272, 76%, 53%));
+  background: -webkit-linear-gradient(
+    to right,
+    hsl(260, 100%, 44%),
+    hsl(272, 76%, 53%)
+  );
+  background: linear-gradient(
+    to right,
+    hsl(260, 100%, 44%),
+    hsl(272, 76%, 53%)
+  );
   transform-origin: 65% 100% 0;
   position: absolute;
   right: 0;
@@ -586,7 +627,7 @@ section {
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
-.owl-dot.active>span {
+.owl-dot.active > span {
   background-color: transparent;
   box-shadow: 0 0 0 2px hsl(312, 100%, 50%);
 }
@@ -869,7 +910,6 @@ section {
   bottom: 15px;
   transition: background 0.5s;
   z-index: 11;
-
 }
 
 .back-to-top i {
@@ -887,9 +927,17 @@ section {
     width: 100%;
     background: hsl(312, 100%, 50%);
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsl(240, 50%, 40%), hsl(312, 100%, 50%));
+    background: -webkit-linear-gradient(
+      to right,
+      hsl(240, 50%, 40%),
+      hsl(312, 100%, 50%)
+    );
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsl(240, hsl(312, 100%, 50%)), hsl(312, 100%, 50%));
+    background: linear-gradient(
+      to right,
+      hsl(240, hsl(312, 100%, 50%)),
+      hsl(312, 100%, 50%)
+    );
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 11;
   }
@@ -913,7 +961,11 @@ section {
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsl(240, #ff00cc), #ff00cc);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsl(240, 50%, 40%), hsl(312, 100%, 50%));
+    background: linear-gradient(
+      to right,
+      hsl(240, 50%, 40%),
+      hsl(312, 100%, 50%)
+    );
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 11;
   }
@@ -935,9 +987,17 @@ section {
     width: 100%;
     background: hsl(312, 100%, 50%);
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsl(240, 50%, 40%), hsl(312, 100%, 50%));
+    background: -webkit-linear-gradient(
+      to right,
+      hsl(240, 50%, 40%),
+      hsl(312, 100%, 50%)
+    );
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsl(240, 50%, 40%), hsl(312, 100%, 50%));
+    background: linear-gradient(
+      to right,
+      hsl(240, 50%, 40%),
+      hsl(312, 100%, 50%)
+    );
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 11;
   }
@@ -972,4 +1032,4 @@ section {
     bottom: 15px;
   }
 }
-  /*=====  End of RESPONSIVE  ======*/
+/*=====  End of RESPONSIVE  ======*/
