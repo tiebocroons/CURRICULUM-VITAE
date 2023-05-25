@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "CURRICULUM-VITAE",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CURRICULUM-VITAE"
+	}
+}
