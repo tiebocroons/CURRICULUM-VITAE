@@ -1,13 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html,
 body {
   width: 100%;
   overflow-x: hidden;
-  overflow: overlay;
-}
-
-body {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
   overflow: overlay;
 }
 
@@ -71,6 +70,7 @@ section {
 .section-content {
   padding-top: 80px;
   padding-bottom: 80px;
+  overflow: hidden;
 }
 
 .title-wrap,
@@ -938,6 +938,8 @@ section {
       hsl(240, hsl(312, 100%, 50%)),
       hsl(312, 100%, 50%)
     );
+    overflow-x: hidden;
+    overflow: overlay;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 11;
   }
