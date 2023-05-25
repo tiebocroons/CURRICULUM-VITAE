@@ -118,9 +118,9 @@
     })(),
     prefixedTransform = vendorPrefix("transform"),
     supportsBackgroundPositionXY =
-      $("<div />", { style: "background:#fff" }).css(
-        "background-position-x"
-      ) !== undefined,
+      $("<div />", {
+        style: "background:#fff",
+      }).css("background-position-x") !== undefined,
     setBackgroundPosition = supportsBackgroundPositionXY
       ? function ($elem, x, y) {
           $elem.css({
@@ -171,7 +171,9 @@
       this._handleWindowLoadAndResize();
       this._detectViewport();
 
-      this.refresh({ firstLoad: true });
+      this.refresh({
+        firstLoad: true,
+      });
 
       if (this.options.scrollProperty === "scroll") {
         this._handleScrollEvent();
